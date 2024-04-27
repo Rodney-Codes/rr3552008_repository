@@ -1,0 +1,2 @@
+Cricket.xlsx - Data for all the teams and their players, alongwith the full match score data. This file also contains the sample for a final desired output 
+Cricket_sql_query.sql - SQL query (MySQL) result for problem statement mentioned in the "Output" tab of Cricket.xlsx file

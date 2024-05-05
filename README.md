@@ -1,2 +1,2 @@
-# SQL_projects
-Personal SQL projects for building my portfolio
+# personal_repository
+Personal projects for building my portfolio

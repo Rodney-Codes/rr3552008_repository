@@ -33,3 +33,8 @@ for col in range(1,ws.max_column+1):
         break
 if f == 0:
     print ("Data file has all the necessary information")
+
+
+#column sum checks
+#range checks
+#text or number checks

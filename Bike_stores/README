@@ -2,6 +2,6 @@ All the CSV files are sourced for Kaggle (https://www.kaggle.com/datasets/dillon
 
 Orders_for_bikes.sql - SQL query (MySQL) results for problem statement <Find the number of customers for each brand and category of bike sold. Order the results in descending order of orders placed for bikes>
 
-Py_aggregator and Py_QC - This folder has 2 files Python files for aggregating the data tables (sourced from CSV files) and checking the data quality and consistency 
+Py_aggregator and Py_data_QC - This folder has 2 files Python files for aggregating the data tables (sourced from CSV files) and checking the data quality and consistency 
 
 Will expand the scope of this problem further

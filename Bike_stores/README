@@ -1,6 +1,6 @@
-All the CSV files are sourced for Kaggle (https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database). The exercise is to find different brands and types of bikes that are ordered
+All the CSV files are sourced for Kaggle (https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database).
 
-Orders_for_bikes.sql - SQL query (MySQL) results for problem statement <Find the number of customers for each brand and category of bike sold. Order the results in descending order of orders placed for bikes>
+Orders_for_bikes.sql - The exercise is to find different brands and types of bikes that are ordered. SQL query (MySQL) results for problem statement <Find the number of customers for each brand and category of bike sold. Order the results in descending order of orders placed for bikes>
 
 Py_aggregator and Py_data_QC - This folder has 2 files Python files for aggregating the data tables (sourced from CSV files) and checking the data quality and consistency 
 

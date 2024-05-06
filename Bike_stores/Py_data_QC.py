@@ -36,30 +36,29 @@ if f == 0:
 
 #logical checks
 for col in range(1,ws.max_column+1):
-    if col == "order_item_quantity":
+    if ws.cell(row=1, column=col).value == "order_item_quantity":
         order_quantity = get_column_letter(col)
-    elif col == "store_quantity":
+    elif ws.cell(row=1, column=col).value == "store_quantity":
         store_quantity = get_column_letter(col)
-    elif col == "order_status":
+    elif ws.cell(row=1, column=col).value == "order_status":
         order_status = get_column_letter(col)
-    elif col == "order_id":
+    elif ws.cell(row=1, column=col).value == "order_id":
         order_id = get_column_letter(col)
-    elif col == "product_name":
+    elif ws.cell(row=1, column=col).value == "product_name":
         product_name = get_column_letter(col)
 for row in range(2,ws.max_row+1):
     if ws[order_quantity + str(1)].value > ws[store_quantity + str(1)].value or ws[order_status + str(row)].value != 4:
-        print ("Order cannot be completed for " + ws[order_id + str(1)].value + " ordering " + ws[product_name + str(1)].value)
+        print ("Order cannot be completed for" + str(ws[order_id + str(row)].value) + " ordering " + str(ws[product_name + str(row)].value))
 
 #range checks
 for col in range(1,ws.max_column+1):
-    if col == "discount":
+    if ws.cell(row=1, column=col).value == "discount":
         discount = get_column_letter(col)
-    elif col == "product_id":
+    elif ws.cell(row=1, column=col).value == "product_id":
         product_id = get_column_letter(col)
 for row in range(2,ws.max_row+1):
-    if ws[discount + str(1)].value > 1:
-        print ("Incorrect discount for the product " + ws[product_id + str(1)].value + " is given")
-
+    if float(ws[discount + str(row)].value) > 1:
+        print ("Incorrect discount for the product " + str(ws[product_id + str(row)].value) + " is given")
 
 #text or number checks
 f = 0

@@ -1,3 +1,3 @@
 This code allows us to create playlist of all mp4 files placed within a directory 
-Create_playlist - the base code used for the python program
-Create_playlist_GUI - with base code remaining the same, this allows a windows pop-up for more interactive experience  
+Create_playlist.py - the base code used for the python program
+Create_playlist_GUI.py - with base code remaining the same, this allows a windows pop-up for more interactive experience  

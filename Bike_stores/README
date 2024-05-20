@@ -4,4 +4,14 @@ Orders_for_bikes.sql - The exercise is to find different brands and types of bik
 
 Py_aggregator and Py_data_QC - This folder has 2 files Python files for aggregating the data tables (sourced from CSV files) and checking the data quality and consistency 
 
+scheduler.py - This will enable to execute and run the python files at specified time. This process can also be done by any OS task schedular in the system
+a. Open Task Scheduler (you can find it by searching for "Task Scheduler" in the Start menu).
+b. In the Task Scheduler, select "Create Basic Task" from the right-hand pane.
+c. Follow the wizard to create a new task:
+- Name: Give your task a name (e.g., "Run Python Scripts").
+- Trigger: Choose "Daily" and set the start date and time (10:00 AM).
+- Action: Choose "Start a Program" and browse to the Python executable (e.g., python.exe).
+- Add arguments: Enter the path to your scheduler.py script. For example: C:/path/to/your/scheduler.py.
+d. Finish the wizard and ensure the task is enabled.
+
 Will expand the scope of this problem further
